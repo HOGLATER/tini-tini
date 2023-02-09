@@ -1,0 +1,10 @@
+'use strict';
+let num_1, num_2, operation, result;
+num_1 = +prompt('введите первое число');
+num_2 = +prompt('введите второе  число');
+operation = prompt('математическая операция ( +, -, *, / )');
+if (operation ==='+') result = num_1+num_2;
+if (operation ==='-') result = num_1-num_2;
+if (operation ==='*') result = num_1*num_2;
+if (operation ==='/') result = num_1/num_2;
+alert(result);
